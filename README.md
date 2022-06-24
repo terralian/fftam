@@ -4,7 +4,7 @@
 
 最终方案基于遗传算法实现，项目内部保留了旧版本的代码作为留念。
 
-对该项目的讲解博客参照：（空）
+对该项目的讲解博客参照：[博客](https://www.cnblogs.com/syui-terra/p/16408803.html)
 
 ### 包结构
 
@@ -24,6 +24,6 @@
     - `sample` 一些摆放样本，用做目标，也用于保存。
   - `App.java` 应用入口
 
-项目使用到的库：
+### 外部库：
 
 - [aforget](https://github.com/TerraLian/aforget)，该库是[AForge.NET](https://github.com/andrewkirillov/AForge.NET) 的 Java 版本的移植，本项目为了项目独立（因为没有发 maven 仓库），将使用的代码 copy 进来了。
