@@ -4,4 +4,26 @@
 
 最终方案基于遗传算法实现，项目内部保留了旧版本的代码作为留念。
 
+对该项目的讲解博客参照：（空）
+
+### 包结构
+
+`com.github.terralian`
+
+- `aforge.genetic` AForge.NET 的 Java 版本移植的代码 copy
+- `common.lang` 个人使用的工具类，copy
+- `csharp` 为了兼容 c#和 java 代码的差异，部分 API 实现，也是 copy
+- `fftam` 实际项目
+  - `item` 宝物的定义，宝物匹配
+  - `map` 地图实例，地图的节点
+  - `search` 摆放搜索算法实现
+    - `genetic1` 遗传算法版本 1
+    - `genetic2` 遗传算法版本 2
+    - `genetic3` 遗传算法版本 3，也是该项目的唯一成功版本
+    - `recurssion` 暴力递归版本
+    - `sample` 一些摆放样本，用做目标，也用于保存。
+  - `App.java` 应用入口
+
 项目使用到的库：
+
+- [aforget](https://github.com/TerraLian/aforget)，该库是[AForge.NET](https://github.com/andrewkirillov/AForge.NET) 的 Java 版本的移植，本项目为了项目独立（因为没有发 maven 仓库），将使用的代码 copy 进来了。
