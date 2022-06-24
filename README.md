@@ -6,6 +6,10 @@
 
 对该项目的讲解博客参照：[博客](https://www.cnblogs.com/syui-terra/p/16408803.html)
 
+### 环境
+
+    jdk 1.8
+
 ### 包结构
 
 `com.github.terralian`
@@ -24,6 +28,15 @@
     - `sample` 一些摆放样本，用做目标，也用于保存。
   - `App.java` 应用入口
 
+### 部分重要类
+
+- `MapItemMatcher` 该方法内的方法`initItemMatchMapList`
+  每个宝物的分值将在这里设计，若你对某些宝物特别关注，那么将它的分值调高，若一定要出现，那么为分值加 0
+
 ### 外部库：
 
 - [aforget](https://github.com/TerraLian/aforget)，该库是[AForge.NET](https://github.com/andrewkirillov/AForge.NET) 的 Java 版本的移植，本项目为了项目独立（因为没有发 maven 仓库），将使用的代码 copy 进来了。
+
+### 其他
+
+代码相当多地方都不是最优，但是能用，那就这样了（
