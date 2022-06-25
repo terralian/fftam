@@ -59,6 +59,11 @@ public class MapItem implements IMapItem {
     }
 
     @Override
+    public int hashCode() {
+        return this.name.hashCode();
+    }
+
+    @Override
     public int compareTo(IMapItem o) {
         int compare = o.itemPoint().compareTo(this.itemPoint());
         if (compare == 0) {
