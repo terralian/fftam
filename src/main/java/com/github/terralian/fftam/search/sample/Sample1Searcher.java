@@ -38,12 +38,12 @@ public class Sample1Searcher extends AbstractSampleSearcher {
         gameMap.setNode(11, MapNodeTypeEnum.Cave);
         // gameMap.setNode(12, MapNodeType.Mountain);
         gameMap.setNode(13, MapNodeTypeEnum.Mountain);
-        // gameMap.setNode(14, MapNodeType.Street);
+        gameMap.setNode(14, MapNodeTypeEnum.Street);
         gameMap.setNode(15, MapNodeTypeEnum.River);
         gameMap.setNode(16, MapNodeTypeEnum.Street);
         gameMap.setNode(17, MapNodeTypeEnum.Street);
         gameMap.setNode(18, MapNodeTypeEnum.Steppes);
-        gameMap.setNode(19, MapNodeTypeEnum.Street);
+        // gameMap.setNode(19, MapNodeTypeEnum.Street);
         gameMap.setNode(20, MapNodeTypeEnum.Mountain);
         gameMap.setNode(21, MapNodeTypeEnum.DeadStreet);
         gameMap.setNode(22, MapNodeTypeEnum.River);

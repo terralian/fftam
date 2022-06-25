@@ -36,12 +36,12 @@ public class Sample2Searcher extends AbstractSampleSearcher {
         gameMap.setNode(11, MapNodeTypeEnum.DeadStreet);
         // gameMap.setNode(12, MapNodeType.Mountain);
         gameMap.setNode(13, MapNodeTypeEnum.Forest);
-        // gameMap.setNode(14, MapNodeType.Street);
+        gameMap.setNode(14, MapNodeTypeEnum.Street);
         gameMap.setNode(15, MapNodeTypeEnum.Street);
         gameMap.setNode(16, MapNodeTypeEnum.Mountain);
         gameMap.setNode(17, MapNodeTypeEnum.Street);
         gameMap.setNode(18, MapNodeTypeEnum.Desert);
-        gameMap.setNode(19, MapNodeTypeEnum.Street);
+        // gameMap.setNode(19, MapNodeTypeEnum.Street);
         gameMap.setNode(20, MapNodeTypeEnum.Forest);
         gameMap.setNode(21, MapNodeTypeEnum.Mountain);
         gameMap.setNode(22, MapNodeTypeEnum.DeadStreet);

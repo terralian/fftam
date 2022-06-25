@@ -34,7 +34,7 @@ public class GameMap implements IGameMap {
      * 除8,12,14外其余都是可编辑节点
      */
     public static final int[] EDITABLE_INDEX =
-            new int[] {0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29};
+            new int[] {0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 29};
 
     /**
      * 地图探索宝物匹配器
@@ -259,7 +259,7 @@ public class GameMap implements IGameMap {
 
     @Override
     public boolean isReadOnlyNode(int index) {
-        return index == 8 || index == 12 || index == 14 || index == 28;
+        return index == 8 || index == 12 || index == 19 || index == 28;
     }
 
     @Override
@@ -398,13 +398,13 @@ public class GameMap implements IGameMap {
     private void setConstantNode() {
         mapNodes.get(8).setType(MapNodeTypeEnum.Street);
         mapNodes.get(12).setType(MapNodeTypeEnum.Mountain);
-        mapNodes.get(14).setType(MapNodeTypeEnum.Street);
+        mapNodes.get(19).setType(MapNodeTypeEnum.Street);
         mapNodes.get(28).setType(MapNodeTypeEnum.Steppes);
     }
 
 
     private void assertNotReadOnlyNode(int index) {
-        if (index == 8 || index == 12 || index == 14) {
+        if (index == 8 || index == 12 || index == 19 || index == 28) {
             throw new IllegalArgumentException("节点" + index + "是固定节点");
         }
     }
