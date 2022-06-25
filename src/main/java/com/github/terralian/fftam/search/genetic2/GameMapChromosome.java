@@ -60,7 +60,7 @@ class GameMapChromosome extends ChromosomeBase implements IGenerationChromosome 
         consumer.accept(MapNodeTypeEnum.Mountain, 4);
         consumer.accept(MapNodeTypeEnum.Forest, 4);
         consumer.accept(MapNodeTypeEnum.Desert, 4);
-        consumer.accept(MapNodeTypeEnum.Steppes, 4);
+        consumer.accept(MapNodeTypeEnum.Steppes, 3);
         consumer.accept(MapNodeTypeEnum.Cave, 2);
         consumer.accept(MapNodeTypeEnum.River, 2);
         consumer.accept(MapNodeTypeEnum.DeadStreet, 3);

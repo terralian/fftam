@@ -53,7 +53,7 @@ public class Sample3Searcher extends AbstractSampleSearcher {
         gameMap.setNode(25, MapNodeTypeEnum.River);
         gameMap.setNode(26, MapNodeTypeEnum.Cave);
         gameMap.setNode(27, MapNodeTypeEnum.Cave);
-        gameMap.setNode(28, MapNodeTypeEnum.Steppes);
+        // gameMap.setNode(28, MapNodeTypeEnum.Steppes);
         gameMap.setNode(29, MapNodeTypeEnum.DeadStreet);
 
         gameMap.match();

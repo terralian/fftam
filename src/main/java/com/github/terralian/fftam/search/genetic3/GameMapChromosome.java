@@ -44,7 +44,7 @@ class GameMapChromosome extends ChromosomeBase {
         for (int i = 0; i < 4; i++) {
             DEFAULT_MAP_NODE.add(MapNodeTypeEnum.Desert);
         }
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             DEFAULT_MAP_NODE.add(MapNodeTypeEnum.Steppes);
         }
         for (int i = 0; i < 2; i++) {

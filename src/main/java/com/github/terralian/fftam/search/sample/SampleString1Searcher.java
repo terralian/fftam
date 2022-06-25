@@ -23,7 +23,7 @@ public class SampleString1Searcher extends AbstractSampleSearcher {
     @Override
     public void search() {
         // 35383
-        String mapIndexString = "6,6,2,7,2,7,3,7,0,3,2,2,1,5,0,0,3,1,4,1,5,3,0,4,1,4,1,0,4,0";
+        String mapIndexString = "6,6,2,7,2,7,3,7,0,3,2,2,1,5,0,0,3,1,4,1,5,3,0,4,1,4,1,0,0";
         String[] mapIndex = mapIndexString.split(",");
         GameMap gameMap = new GameMap();
         for (int i = 0; i < 30; i++) {

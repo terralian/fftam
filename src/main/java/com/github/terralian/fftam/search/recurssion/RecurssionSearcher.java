@@ -53,7 +53,7 @@ public class RecurssionSearcher implements IMapSearcher {
         mapNodeTypes[MapNodeTypeEnum.Mountain.getTypeCode()] = 4;
         mapNodeTypes[MapNodeTypeEnum.Forest.getTypeCode()] = 4;
         mapNodeTypes[MapNodeTypeEnum.Desert.getTypeCode()] = 4;
-        mapNodeTypes[MapNodeTypeEnum.Steppes.getTypeCode()] = 4;
+        mapNodeTypes[MapNodeTypeEnum.Steppes.getTypeCode()] = 3;
         mapNodeTypes[MapNodeTypeEnum.Cave.getTypeCode()] = 2;
         mapNodeTypes[MapNodeTypeEnum.River.getTypeCode()] = 2;
         mapNodeTypes[MapNodeTypeEnum.DeadStreet.getTypeCode()] = 3;
